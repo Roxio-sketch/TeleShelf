@@ -1,0 +1,9 @@
+{
+  "name": "teleshelf",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-09",
+  "workers_dev": true,
+  "vars": {"BOT_NAME": "teleshelf", "START_TEXT": "欢迎使用 TeleShelf，发送 /help 查看帮助。"},
+  "d1_databases": [{"binding": "DB", "database_name": "teleshelf-content", "database_id": "YOUR_D1_DATABASE_ID"}],
+  "kv_namespaces": [{"binding": "MEDIA", "id": "YOUR_KV_NAMESPACE_ID"}]
+}
